@@ -1,8 +1,11 @@
 
 #navbar{
-    height: 60px;
-    background-color: #547171;
+    height: 50px;
+    background-color: #67005e;
     color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
 }
 button{
     background-color: #1d07e3;
@@ -10,43 +13,69 @@ button{
 }
 
 #logo{
-    background-color: #2404f0;
+    background-color: #fc9aed;
     color: white;
     font-size: 40px;
-    margin: 100px;
-    margin: top 10px;
+    margin: 20px;
+    margin : top 10px;
     border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 a{
-    margin-right:200px;
+    margin-right:400px;
 }
 
 
 #box1{
-    border: 1px solid orangered;
+    border: 1px solid rgb(234, 231, 230);
     background-color: rgb(244, 244, 244);
     color: rgb(11, 11, 11);
+
     
 }
 #box2{
     position: relative;
-    margin-top: -450px;
+    margin-top: -430px;
     font-size: xx-large;
-    color: #0e0d0d;
-    font-family: fantasy;
+    color: #faf6f6;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
+    font-size: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#box3{
-    border: 1px solid orangered;
-    background-color: rgb(244, 244, 244);
-    color: rgb(11, 11, 11);
-    border-radius: 50%;
-    margin-bottom: 650px;
-    
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    display:flex;
+    align-items:center;
+    border-radius:60px;
+    padding:10px 20px;
 }
+.search-bar input{
+background: transparent;
+flex: 1;
+border: 0;
+outline: none;
+padding: 24px 20px;
+font-size: 20px;
+color: #cac7ff;
+}
+ ::placeholder{
+    color:#cac7ff; 
+
+}
+.btn{
+    height: 40px;
+    width: 40px;
+}
+
+
 
 
 
