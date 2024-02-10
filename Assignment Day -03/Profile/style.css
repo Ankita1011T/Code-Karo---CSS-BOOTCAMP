@@ -1,0 +1,26 @@
+.post{
+    width: 500px;
+    margin: 30px auto;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    padding: 10px;
+}
+.post-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.profile{
+    display: flex;
+    margin-bottom: 24px;
+    gap: 6px;
+    align-items: center;
+}
+/* align-items is used to move the element in the y axis */
+.user{
+    height: 50px;
+    border-radius: 50%;
+}
+.username{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
